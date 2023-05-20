@@ -24,10 +24,10 @@ class LembreteManager {
         }
 
         const dataAtual = new Date();
-        const dataSelecionada = new Date(this.dataInput.value + 'T23:59:50Z');
+        const dataSelecionada = new Date(this.dataInput.value + 'T00:00:00Z');
 
         if (dataSelecionada < dataAtual) {
-            alert('Não é possível adicionar um lembrete para datas passadas');
+            alert('Só é possível adicionar datas futuras');
             return;
         }
 
@@ -58,9 +58,9 @@ class LembreteManager {
                 this.dataInput.value = '';
 
                 alert('O lembrete foi adicionado com sucesso.');
-                location.reload(); // Recarrega a página
             })
             .catch((error) => {
+                alert('Ocorreu um erro ao adicionar lembrete: ' + error.message);
                 console.log('Ocorreu um erro:', error);
             });
     }
@@ -89,7 +89,6 @@ class LembreteManager {
             '<span class="nome">' +
             lembrete.nome +
             '</span><br>' +
-            
             '</span>' +
             ' <button class="delete-button deletebtn" data-id="' +
             lembrete.id +
