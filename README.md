@@ -15,13 +15,17 @@ Para executar o frontend, siga as etapas abaixo:
 
 ### Pré-requisitos
 
-- Instalação do Visual Studio Code e da extensão Live Server para rodar o código localmente.
+- Instalação do Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- Clone ou faça o download deste repositório para a sua máquina local.
 
 ### Executando o frontend
 
-1. No Visual Studio Code, abra a pasta do frontend.
-2. Utilize a extensão Live Server clicando no botão na parte inferior direita da janela do Visual Studio Code, chamado "Go Live".
-3. O Live Server será iniciado e o frontend será aberto em seu navegador padrão.
+1. Abra o Visual Studio Code.
+2. No menu do VS Code, selecione "File" > "Open Folder".
+3. Navegue até o diretório onde você fez o clone ou o download deste repositório e selecione a pasta "frontend".
+4. Com a pasta "frontend" aberta no VS Code, certifique-se de que a extensão Live Server esteja instalada. Caso não esteja, você pode instalá-la a partir do mercado de extensões do Visual Studio Code.
+5. No VS Code, clique com o botão direito do mouse no arquivo "index.html" dentro da pasta "frontend" e selecione "Open with Live Server".
+6. O Live Server será iniciado e o frontend será aberto em seu navegador padrão.
 
 ## Estilização
 
@@ -29,4 +33,4 @@ Para a estilização do frontend, utilizamos um CSS de referência do CodePen. F
 
 ## Necessidade do cliente para funcionamento completo da aplicação
 
-Para testar a funcionalidade completa da aplicação, vá até https://github.com/lucasdiniz1708/lembretes-api e também verifique se você possui o backend em execução, seja através do JAR ou da IDE Spring Tools Suite.
+Para testar a funcionalidade completa da aplicação, verifique se você possui o backend em execução, seja através do JAR ou da IDE Spring Tools Suite, seguindo as instruções no repositório [https://github.com/lucasdiniz1708/lembretes-api](https://github.com/lucasdiniz1708/lembretes-api).
