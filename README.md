@@ -1,6 +1,6 @@
 # Lembretes - Frontend
 
-Este é o diretório do frontend da aplicação Lembretes. Ele contém os arquivos HTML, CSS e JavaScript necessários para a interface do usuário.
+Este é o diretório do frontend da aplicação Lembretes. Ele contém os arquivos HTML, CSS e JavaScript necessários para a interface do usuário.<br>
                       ![Exemplo da aplicação funcionando](https://github.com/lucasdiniz1708/lembretes-front/blob/main/AplicacaoView.png)
 ## Descrição
 
