@@ -89,8 +89,7 @@ class LembreteManager {
             '<span class="nome">' +
             lembrete.nome +
             '</span><br>' +
-            '<span class="data">' +
-            dataFormatada +
+            
             '</span>' +
             ' <button class="delete-button deletebtn" data-id="' +
             lembrete.id +
