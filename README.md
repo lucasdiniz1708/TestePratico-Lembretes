@@ -31,6 +31,6 @@ Para executar o frontend, siga as etapas abaixo:
 
 Para a estilização do frontend, utilizamos um CSS de referência do CodePen. Fizemos uso do CSS disponível no seguinte link: [https://codepen.io/MohammadAassif/pen/MrzWKd](https://codepen.io/MohammadAassif/pen/MrzWKd).
 
-## Necessidade do cliente para funcionamento completo da aplicação
+## Necessidade do servidor para funcionamento completo da aplicação
 
 Para testar a funcionalidade completa da aplicação, verifique se você possui o backend em execução, seja através do JAR ou da IDE Spring Tools Suite, seguindo as instruções no repositório [https://github.com/lucasdiniz1708/lembretes-api](https://github.com/lucasdiniz1708/lembretes-api).
