@@ -1,54 +1,37 @@
-![picture alt](/cypress/images/leantech.png "Lean Tech Logo")
+# Lembretes - Frontend
 
-# QA Challenge Lean Tech
-[![E2E library: Cypress](https://img.shields.io/badge/E2E%20Framework-Cypress-blue)](https://www.cypress.io/)
+Este é o diretório do frontend da aplicação Lembretes. Ele contém os arquivos HTML, CSS e JavaScript necessários para a interface do usuário.
 
----
+## Descrição
 
-# All the test scenarios are located on integration folder
+O frontend é responsável por fornecer a interface com o usuário, permitindo que ele interaja com a aplicação de lembretes. Aqui estão alguns detalhes sobre o frontend:
 
-## Execution
+- IDE utilizada: Visual Studio Code
+- Extensão utilizada: Live Server
 
-### Prerequisites
+## Configuração e Execução
 
-- [Node.js](https://nodejs.org/en/download/) installed.
+Para executar o frontend, siga as etapas abaixo:
 
-### Installing the dependencies and running the tests
+### Pré-requisitos
 
-All the commands below are executed in the command _prompt_.
+- Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em: [https://nodejs.org](https://nodejs.org)
 
-**1** - Download the project and access the created directory:
+### Instalação das dependências
 
-```sh
-cd automation-LT
-```
+1. Abra o terminal ou prompt de comando.
+2. Navegue até o diretório do frontend: `cd <caminho_do_diretorio_front_end>`
+3. Instale as dependências necessárias executando o comando: `npm install`
 
-**2** - Install the necessary dependencies to run the tests:
+### Executando o frontend
 
-```sh
-npm install
-```
+1. No terminal ou prompt de comando, no diretório do frontend, execute o comando: `npm start`
+2. O Live Server será iniciado e o frontend será aberto em seu navegador padrão.
 
-**3** - You can choose to open GUI Tests or Headless tests, to run with GUI Test, type the following command, and after this, choose what spec you want to run:
+## Contribuição
 
-```sh
-npm run open
-```
+Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para fazer um fork e enviar suas melhorias através de pull requests. Ficaremos felizes em revisar suas contribuições.
 
-**4** - To run Headless Mode, type:
+## Licença
 
-```sh
-npm run cy:run
-```
-
-**5** - To run Headless Mode but with the cypress recorder option, type: 
-
-NOTE: All the results will be available [here](https://cloud.cypress.io/projects/saak6b/runs/7/overview)
-
-```sh
-npm run cy:run:dash
-```
-
----
-
-[License MIT](/LICENSE)
+Este projeto está licenciado sob a licença [MIT](/LICENSE).
