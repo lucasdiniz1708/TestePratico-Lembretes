@@ -15,23 +15,14 @@ Para executar o frontend, siga as etapas abaixo:
 
 ### Pré-requisitos
 
-- Certifique-se de ter o Node.js instalado em sua máquina. Você pode baixá-lo em: [https://nodejs.org](https://nodejs.org)
-
-### Instalação das dependências
-
-1. Abra o terminal ou prompt de comando.
-2. Navegue até o diretório do frontend: `cd <caminho_do_diretorio_front_end>`
-3. Instale as dependências necessárias executando o comando: `npm install`
+- Instalação do visual studio code e extensão Live Server para rodar o codigo localmente.
 
 ### Executando o frontend
 
-1. No terminal ou prompt de comando, no diretório do frontend, execute o comando: `npm start`
+1. Pelo VS Code por meio da extensão Live Server, clique no botão da lateral inferior a direita "Go Live"
 2. O Live Server será iniciado e o frontend será aberto em seu navegador padrão.
 
-## Contribuição
+## Necessidade do cliente para funcionamento completo da aplicação
 
-Se você deseja contribuir para o desenvolvimento deste projeto, sinta-se à vontade para fazer um fork e enviar suas melhorias através de pull requests. Ficaremos felizes em revisar suas contribuições.
+Para testar a funcionalidade completa da aplicação, vá até https://github.com/lucasdiniz1708/lembretes-api e também execute o lado servidor.
 
-## Licença
-
-Este projeto está licenciado sob a licença [MIT](/LICENSE).
