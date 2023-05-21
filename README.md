@@ -11,7 +11,7 @@ O frontend é responsável por fornecer a interface com o usuário, permitindo q
 
 ## Configuração e Execução
 
-Para executar o frontend, siga as etapas abaixo:
+Para configurar o ambiente, siga as etapas abaixo:
 
 ### Pré-requisitos
 
